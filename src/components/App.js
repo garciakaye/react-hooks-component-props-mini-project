@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header blogname={blogData.name}/>
       <About logo={blogData.image} aboutTxt={blogData.about} />
-      <ArticleList post={blogData.posts}/>
+      <ArticleList posts={blogData.posts}/>
     </div>
   );
 }
